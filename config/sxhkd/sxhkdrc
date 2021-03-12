@@ -14,20 +14,20 @@ super + @space
 super + Escape
 	pkill -USR1 -x sxhkd
 
-super + u
+super + shift + f
 	firefox
 
-super + i
+super + shift + t
 	telegram
+
+super + shift + s
+	spotify
 
 Print
 	gnome-screenshot
 
 super + Print
 	gnome-screenshot -a
-
-super + r
-	trad
 
 XF86AudioPlay
 	playerctl play-pause

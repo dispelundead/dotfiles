@@ -19,6 +19,8 @@ pgrep -x urserver > /dev/null || cd /opt/urserver/ && ./urserver --daemon
 killall --quiet dunst
 dunst &
 
+xmodmap ~/.Xmodmap
+
 bspc monitor VGA1 -d 1 2 3 4 5 6
 
 bspc config border_width         0
